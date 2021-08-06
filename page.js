@@ -19,7 +19,7 @@ const main_Text = document.querySelector(".mainText")
 const header_Text = document.querySelector(".headerText")
 const  connect_Text =document.querySelector(".connectText")
 const change_cont = document.querySelector(".changeCont")
-const footer_Container= document.querySelector(".footerContainer")
+const footer_Container= document.querySelector(".footer-cont")
 
 // ADDING TOP BLACK CONTAINER
 window.addEventListener("scroll",() =>{
@@ -42,6 +42,7 @@ window.addEventListener("scroll",() =>{
     mainConnectCont.style.display = "block"
     change_cont.style.display="none"
     footer_Container.style.display="none"
+
     
 
  }
@@ -79,6 +80,7 @@ closeButton.addEventListener("click", function(e){
 function light_Mode(){
     main_Body.style.backgroundColor="white";
     header_Light.style.color="black";
+    main_Text.style.backgroundColor="rgb(223, 223, 223)"
     main_Text.style.color="black";
     lightMode.style.display= "none";
     dark_mode.style.display= "block"
@@ -105,7 +107,7 @@ function dark_Mode(){
     lightMode.style.display="block"
     dark_mode.style.display="none"
     header_dark.style.color="white";
-
+    main_Text.style.backgroundColor="rgb(68, 66, 66)"
     main_Text.style.color="rgb(184, 184, 184)";
     fixedHeader.style.backgroundColor="black"
     menu_Btn.style.color="white"

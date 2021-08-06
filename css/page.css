@@ -226,7 +226,7 @@ a:hover{
 }
 
 
- @media all and (max-width:300px),(max-width:480px),(max-width:600px),(max-width:768px){
+ @media all and (max-width:300px),(max-width:480px),(max-width:600px),(max-width:768px), (max-width:1024px){
 
     .mainHeader{
         display: flex;

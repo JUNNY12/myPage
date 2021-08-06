@@ -171,6 +171,7 @@ a:hover{
 
 .changeCont{
     position: relative;
+    z-index: 1;
     
 }
 
